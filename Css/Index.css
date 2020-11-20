@@ -65,9 +65,15 @@ nav a:hover, #hero-section a:hover {
     background: #228b22;
 }
 
+
+
 @media (min-width: 200px)   {
     #hero-section   {
         height: 60vh;
+    }
+
+    #organisers .card-text  {
+        min-width: fit-content;
     }
 
 }   
