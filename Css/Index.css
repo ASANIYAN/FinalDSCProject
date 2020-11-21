@@ -41,6 +41,10 @@ nav a:hover, #hero-section a:hover {
     width: 30rem;
 }
 
+.item   {
+    margin-bottom: 20px;
+}
+
 #carouselExampleControls    {
     width: 70vw;
 }
@@ -65,16 +69,17 @@ nav a:hover, #hero-section a:hover {
     background: #228b22;
 }
 
-
+#organisers .card  {
+    min-width: auto;
+    width: 11rem;
+}
 
 @media (min-width: 200px)   {
     #hero-section   {
         height: 60vh;
     }
 
-    #organisers .card-text  {
-        min-width: fit-content;
-    }
+    
 
 }   
 
