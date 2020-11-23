@@ -18,7 +18,7 @@ nav a:hover, #hero-section a:hover {
 
 #events  {
     background: #228b22;
-    width: 100vw;
+    width: 100%;
 }  
 
 .event-container   {
@@ -29,6 +29,20 @@ nav a:hover, #hero-section a:hover {
     overflow-x: auto;
     white-space: nowrap;
     flex-flow: nowrap;
+}
+
+/* For Firefox*/
+.event-container    {
+    scrollbar-color: white green;
+}
+
+/* For Chrome/Edge/Safari */
+* .event-container::-webkit-scrollbar   {
+    background: green;
+}
+
+* .event-container::-webkit-scrollbar-thumb   {
+    background: white;
 }
 
 .event-color    {
@@ -56,6 +70,11 @@ nav a:hover, #hero-section a:hover {
 .carousel-position  {
     color: green;
 }
+
+.position-car   {
+    position: relative;
+    margin-bottom: 200px;
+}    
 
 .carousel-position:hover    {
     transform: scale(2);
