@@ -63,9 +63,6 @@ nav a:hover, #hero-section a:hover {
     margin-bottom: 20px;
 }
 
-#carouselExampleControls    {
-    width: 70vw;
-}
 
 #organisers img {
     margin-top: 10px;
@@ -73,20 +70,10 @@ nav a:hover, #hero-section a:hover {
 
 .carousel-position  {
     color: green;
-}
-
-.position-car   {
-    position: relative;
-    margin-bottom: 200px;
-}    
+} 
 
 .carousel-position:hover    {
     transform: scale(2);
-}
-
-.controller {
-    width: 100%;
-    display: flex;
 }
 
 .btn-foot:hover   {
