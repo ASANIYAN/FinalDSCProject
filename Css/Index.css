@@ -70,6 +70,8 @@ nav a:hover, #hero-section a:hover {
 
 .carousel-position  {
     color: green;
+    position: relative;
+    margin-top: 300px;
 } 
 
 .carousel-position:hover    {
@@ -87,6 +89,10 @@ nav a:hover, #hero-section a:hover {
 #organisers .card  {
     min-width: auto;
     width: 11rem;
+}
+
+#organisers p {
+    width: 120px;
 }
 
 @media (min-width: 200px)   {
